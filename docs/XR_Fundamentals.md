@@ -146,3 +146,13 @@ XR technologies are increasingly used in:
 
 XR combines different immersive technologies to create new ways of interacting with digital information. AR enhances the real world, VR creates fully virtual environments, and MR combines physical and digital environments. Understanding these technologies provides a foundation for developing immersive applications.
 
+## XR System Architecture
+
+
+
+The following diagram illustrates the basic flow of an XR system, from user input and sensors through processing and rendering to the final AR, VR, or MR experience.
+
+
+
+!\[XR System Architecture](../images/xr\_architecture.png)
+
