@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XR Explorer | AR VR MR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <p class="tag">EXTENDED REALITY</p>
+        <h1>XR Explorer</h1>
+        <p>Explore Augmented Reality, Virtual Reality and Mixed Reality through an interactive learning hub.</p>
+        <button onclick="scrollToExplorer()">Explore XR</button>
+    </div>
+</header>
+
+<main id="explorer">
+
+    <section class="intro">
+        <h2>What is XR?</h2>
+        <p>
+            Extended Reality (XR) is an umbrella term covering immersive
+            technologies such as Augmented Reality, Virtual Reality and
+            Mixed Reality.
+        </p>
+    </section>
+
+    <section>
+        <h2>Explore the Technologies</h2>
+
+        <div class="cards">
+
+            <article class="card ar">
+                <span>01</span>
+                <h3>Augmented Reality</h3>
+                <p>AR adds digital objects and information to the real-world environment.</p>
+                <button onclick="showInfo('ar')">Learn More</button>
+            </article>
+
+            <article class="card vr">
+                <span>02</span>
+                <h3>Virtual Reality</h3>
+                <p>VR creates an immersive computer-generated environment for the user.</p>
+                <button onclick="showInfo('vr')">Learn More</button>
+            </article>
+
+            <article class="card mr">
+                <span>03</span>
+                <h3>Mixed Reality</h3>
+                <p>MR combines physical and digital environments with spatial interaction.</p>
+                <button onclick="showInfo('mr')">Learn More</button>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="comparison">
+        <h2>Quick Comparison</h2>
+
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Real World</th>
+                <th>Immersion</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>AR</td>
+                <td>Visible</td>
+                <td>Medium</td>
+                <td>AR Navigation</td>
+            </tr>
+            <tr>
+                <td>VR</td>
+                <td>Replaced</td>
+                <td>High</td>
+                <td>VR Simulation</td>
+            </tr>
+            <tr>
+                <td>MR</td>
+                <td>Integrated</td>
+                <td>High</td>
+                <td>Spatial 3D Objects</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="applications">
+        <h2>Applications of XR</h2>
+
+        <div class="application-grid">
+            <div>🎓 Education</div>
+            <div>🏥 Healthcare</div>
+            <div>🎮 Gaming</div>
+            <div>🏗️ Engineering</div>
+            <div>🏭 Training</div>
+            <div>🛍️ Retail</div>
+        </div>
+    </section>
+
+</main>
+
+<div id="modal" class="modal">
+    <div class="modal-box">
+        <button class="close" onclick="closeInfo()">×</button>
+        <h2 id="modalTitle"></h2>
+        <p id="modalText"></p>
+    </div>
+</div>
+
+<footer>
+    <p>XR Explorer — Individual Academic Project</p>
+    <p>AR • VR • MR | Extended Reality</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
